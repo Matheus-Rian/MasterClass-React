@@ -1,6 +1,6 @@
 import React from "react";
 
-import products from "../data/products";
+import products from "../../data/products";
 
 //eslint-disable-next-line
 export default (props) => {
