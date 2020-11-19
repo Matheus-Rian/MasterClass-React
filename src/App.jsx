@@ -11,12 +11,16 @@ import Super from "./components/comunicacao/indireta/Super";
 import "./App.css";
 import Input from "./components/form/Input";
 import Contador from "./components/contador/Contador";
+import GeradorNumeros from './components/numerosMegaSena/GeradorNumeros'
 
 //eslint-disable-next-line
 export default (props) => (
   <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+    <Card titulo="#11 - Gerador de num Mega Sena" color="#52848B">
+      <GeradorNumeros qtdeNumero={8}></GeradorNumeros>
+      </Card>
       <Card titulo="#10 - Contador" color="#52848B">
         <Contador passo={10} valor={5}/>
       </Card>
